@@ -1,0 +1,17 @@
+{
+  "name": "iam-data-gather",
+  "version": "1.0.0",
+  "description": "Used to check all IAM Profiles and validate if they have an SSM role or Admin Role associated",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "IntelligentDiscovery Support | info@ldaptive.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "csv2json": "^2.0.2",
+    "json2csv": "^5.0.6"
+  }
+}
